@@ -16,7 +16,7 @@ This package uses a combination of the following modules:
 $ npm i summarizer
 ```
 
-### Example usage
+### [Example usage](/example.js)
 
 ```js
 'use strict';
