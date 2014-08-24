@@ -30,7 +30,7 @@ getPage(uri).then(function (data) {
 }, console.error);
 ```
 
-#### Example output
+#### [Example output](/example.json)
 
 ```json
 {
