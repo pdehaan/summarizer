@@ -1,0 +1,35 @@
+{
+  "name": "summarizer",
+  "version": "1.0.0",
+  "description": "Scrapes a remote page and creates a summery with statistics.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pdehaan/summarizer.git"
+  },
+  "keywords": [
+    "summarize",
+    "summarizer",
+    "summary"
+  ],
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/pdehaan/summarizer/issues"
+  },
+  "homepage": "https://github.com/pdehaan/summarizer",
+  "dependencies": {
+    "node-summary": "1.0.0",
+    "promise": "5.0.0",
+    "summarize": "1.4.0",
+    "superagent": "0.18.2",
+    "unfluff": "0.7.0"
+  },
+  "devDependencies": {
+    "eslint": "0.7.4"
+  }
+}

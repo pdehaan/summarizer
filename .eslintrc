@@ -1,0 +1,6 @@
+env:
+  node: true
+
+rules:
+  no-use-before-define: [1, nofunc]
+  quotes: [2, single]
