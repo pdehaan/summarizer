@@ -1,0 +1,10 @@
+language: node_js
+
+node_js:
+  - "0.10"
+
+script:
+  - npm i nsp -g
+  - npm shrinkwrap --dev
+  - nsp audit-shrinkwrap || true
+  - npm outdated --depth 0

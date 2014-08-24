@@ -1,11 +1,12 @@
 {
   "name": "summarizer",
   "version": "1.0.0",
-  "description": "Scrapes a remote page and creates a summery with statistics.",
+  "description": "Scrapes a remote page and creates a summary with statistics.",
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "test": "eslint ."
+    "test": "eslint .",
+    "example": "node example"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "node-summary": "1.0.0",
     "promise": "5.0.0",
     "summarize": "1.4.0",
+    "summarizer": "git://github.com/pdehaan/summarizer",
     "superagent": "0.18.2",
     "unfluff": "0.7.0"
   },
