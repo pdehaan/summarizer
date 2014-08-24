@@ -27,7 +27,6 @@
     "node-summary": "1.0.0",
     "promise": "5.0.0",
     "summarize": "1.4.0",
-    "summarizer": "git://github.com/pdehaan/summarizer",
     "superagent": "0.18.2",
     "unfluff": "0.7.0"
   },
